@@ -26,7 +26,7 @@ function criarCobrinha(){ //cobrinha
 
 function drawFood(){
     context.fillStyle = "red";
-    context.fillRect =(food.x, food.y, box, box);
+    context.fillRect(food.x, food.y, box, box);
 } 
 
 document.addEventListener("keydown", update);
